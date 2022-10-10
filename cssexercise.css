@@ -10,10 +10,15 @@ html{
     background-color: lightgrey;
     text-align: center;
     border: 3px dotted #000;
+    scroll-behavior: smooth;
 }
 
 main, header, footer{
     width: 100%;
+}
+
+p{
+    padding-bottom: 1rem;
 }
 
 .logo-paragraph{
@@ -44,6 +49,10 @@ header{
 .menu-list li{
     list-style: none;
     padding: 0.5rem;
+    font-size: 1rem;
+    overflow-anchor: auto;
+    width: 100%;
+    white-space: normal;
 }
 
 a{
@@ -69,7 +78,8 @@ a:active{
     color: whitesmoke;
     background-color: #000;
     font-weight: bold;
- }
+    
+}
 
 .place-order:hover{
     background-color: #333;
@@ -107,3 +117,4 @@ div{
     padding: 0.25rem;
     margin: 0.25rem;
 }
+
