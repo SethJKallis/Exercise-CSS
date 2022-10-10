@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+main, header, footer{
+    width: 100%;
+}
+
+
+.logo{
+    width: 2.5rem;
+    border-radius: 1.75rem;
+}
+
+header, .menu-list, footer{
+    display: inline-flex;
+    background-color: grey;
+}
+
+.menu{
+    align-self: center;
+    margin-left: auto;
+}
+
+.menu-list li{
+    list-style: none;
+    padding: 0 0.5rem;
+}
+
+a{
+    color: #000;
+}
+
+a:visited{
+    color: #000;
+}
+
+a:hover, a:focus{
+    color:  whitesmoke;
+    background-color: #000;
+}
