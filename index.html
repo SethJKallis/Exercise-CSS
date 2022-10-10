@@ -17,37 +17,71 @@
                 <li><a href="#appetizers">Appetizers</a></li>
                 <li><a href="#main-course">Main Course</a></li>
                 <li><a href="#desserts">Desserts</a></li>
-                <li><a href="#place-order">Place Order</a></li>
+                <li><a class="place-order" href="#place-order">Place Order!</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="home">
-        <h2>Welcome to the CSS Restaurant!</h2>
+        <h1>Welcome to the CSS Restaurant!</h1>
         <img class="store-img" src="" alt="Store Image">
         </section>
         <section id="entrees">
-        <h3>Entrees</h3>
+        <h2>Entrees</h2>
         <img class="entrees-img" src="" alt="Entrees">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, blanditiis. Voluptatum, aut odit dolores veniam minima laboriosam soluta eveniet. Praesentium sit, voluptates repudiandae sunt possimus consequuntur quasi! Incidunt, repellat consequatur!</p>
         </section>
         <section id="appetizers">
-        <h3>Appetizers</h3>
+        <h2>Appetizers</h2>
         <img class="appetizers-img" src="" alt="Appetizers">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet sapiente odio assumenda temporibus aperiam suscipit eum hic nostrum ducimus libero, voluptate excepturi. Quo sunt, fugit illum laudantium modi optio asperiores.</p>
         </section>
         <section id="main-course">
-        <h3>Main Course</h3>
+        <h2>Main Course</h2>
         <img src="" alt="Main Course">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima dolorem quibusdam non commodi esse adipisci tenetur, at illum porro corrupti iure, maiores itaque quasi labore odit ipsam accusantium expedita repellendus?</p>
         </section>
         <section id="desserts">
-        <h3>Desserts</h3>
+        <h2>Desserts</h2>
         <img class="desserts-img" src="" alt="Desserts">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem facilis quae, nam molestiae quam facere ut distinctio repellat? Ex quia omnis nostrum cupiditate architecto ad atque. Deleniti placeat ducimus laudantium.</p>
         </section>
+        <section>
+            <h2>Working Hours!</h2>
+            <table>
+                <thead>
+                    <th>&nbsp;</th>
+                    <th>Open/Closing Times</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Monday</th>
+                        <td>08:00AM - 17:00PM</td>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <td>08:00AM - 17:00PM</td>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <td>09:00AM - 17:00PM</td>
+                    </tr>
+                    <tr>
+                        <th>Thursday</th>
+                        <td>08:00AM - 17:00PM</td>
+                    </tr>
+                    <tr>
+                        <th>Friday</th>
+                        <td>09:00AM - 16:30PM</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </section>
         <section id="place-order">
-        <h3>Place an Order!</h3>
+        <h2>Place an Order and We'll Get Back To You!</h2>
         <form action="" method="post">
             <fieldset>
                 <legend>Place your order here:</legend>
@@ -69,18 +103,24 @@
                   <span>Pescatarian<input type="radio" name="preferences" id="preferences"></span>
                 </div>
                 <div>
-                    <label for="relg-preference">Religious Preference</label><br>
+                    <label for="relg-preference">Religious Preference:</label><br>
                     <span>Non-Halaal <input type="radio" name="relg-preference" id="relg-preference"></span>
                     <span>Halaal <input type="radio" name="relg-preference" id="relg-preference"></span>
                 </div>
                 <div>
-                    <label for="allergies">Allergies</label><br>
+                    <label for="allergies">Allergies:</label><br>
                     <span>Nuts<input type="checkbox" name="allergies" id="allergies"></span>
                     <span>Milk<input type="checkbox" name="allergies" id="allergies"></span>
                     <span>Shellfish <input type="checkbox" name="allergies" id="allergies"></span>
+                    <span>Other <input type="checkbox" name="allergies" id="allergies"></span>
+                </div>
+                <div>
+                    <Label>Please Specify:</Label><br>
+                    <textarea name="allergies" id="allergies" cols="30" rows="5" placeholder="What are your allergies? We DO NOT want to kill you..."></textarea>
                 </div>
             </fieldset>
-
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
         </form>
     </section>
 

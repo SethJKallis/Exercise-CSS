@@ -51,6 +51,26 @@ a:hover, a:focus{
     margin: 0;
 }
 
+a:active{
+    color: turquoise;
+}
+
+.place-order, .place-order:visited{
+    color: whitesmoke;
+    background-color: #000;
+    font-weight: bold;
+ }
+
+.place-order:hover{
+    background-color: #333;
+ }
+
+table, th, td{
+    margin: auto;
+    border: 2px dashed red;
+    border-collapse: collapse;
+}
+
 legend{
     font-weight: bold;
 }
