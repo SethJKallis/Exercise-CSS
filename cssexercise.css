@@ -33,11 +33,12 @@ header, .menu-list, footer{
 
 .menu-list li{
     list-style: none;
-    padding: 0 0.5rem;
+    padding: 0.5rem;
 }
 
 a{
     color: #000;
+    text-decoration: none;
 }
 
 a:visited{
@@ -47,4 +48,13 @@ a:visited{
 a:hover, a:focus{
     color:  whitesmoke;
     background-color: #000;
+    margin: 0;
+}
+
+legend{
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
 }
