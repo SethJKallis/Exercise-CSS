@@ -9,15 +9,20 @@ html{
     font-family: 'Courier New', Courier, monospace;
     background-color: lightgrey;
     text-align: center;
+    border: 3px dotted #000;
 }
 
 main, header, footer{
     width: 100%;
 }
 
+.logo-paragraph{
+    margin-bottom: 1rem;
+}
+
 
 .logo{
-    width: 2.5rem;
+    width: 4rem;
     border-radius: 1.75rem;
 }
 
@@ -26,7 +31,12 @@ header, .menu-list, footer{
     background-color: grey;
 }
 
+header{
+    margin-bottom: 2rem;
+}
+
 .menu{
+    font-size: 1.25rem;
     align-self: center;
     margin-left: auto;
 }
@@ -66,7 +76,7 @@ a:active{
  }
 
 table, th, td{
-    margin: auto;
+    margin: 1rem auto;
     border: 2px dashed red;
     border-collapse: collapse;
 }
@@ -77,4 +87,23 @@ legend{
 
 label{
     font-weight: bold;
+}
+
+img{
+    width: 50%;
+    border-radius: 25% ;
+    margin: 1rem 0;
+}
+
+h2{
+    margin-top: 1rem;
+}
+
+.working-hours-heading{
+    margin-bottom: 1rem;
+}
+
+div{
+    padding: 0.25rem;
+    margin: 0.25rem;
 }

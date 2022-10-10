@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="https://i.postimg.cc/JhX6hkxD/real-estate-logo-600w-1615688014.webp" alt="Some Image">
+        <img class="logo" src="https://i.postimg.cc/JhX6hkxD/real-estate-logo-600w-1615688014.webp" alt="Store Logo">
         <nav class="menu">
             <ul class="menu-list">
                 <li><a href="#home">Home</a></li>
@@ -17,6 +17,7 @@
                 <li><a href="#appetizers">Appetizers</a></li>
                 <li><a href="#main-course">Main Course</a></li>
                 <li><a href="#desserts">Desserts</a></li>
+                <li><a href="#working-hours">Hours</a></li>
                 <li><a class="place-order" href="#place-order">Place Order!</a></li>
             </ul>
         </nav>
@@ -24,30 +25,36 @@
     <main>
         <section id="home">
         <h1>Welcome to the CSS Restaurant!</h1>
-        <img class="store-img" src="" alt="Store Image">
+        <img class="store-img" src="https://i.postimg.cc/JhX6hkxD/real-estate-logo-600w-1615688014.webp" alt="Store Logo">
+        <p class="logo-paragraph">The CSS test webpage for a non-existent restaurant!</p>
         </section>
+        <hr>
         <section id="entrees">
         <h2>Entrees</h2>
-        <img class="entrees-img" src="" alt="Entrees">
+        <img class="entrees-img" src="Images/gourmet-restaurant-dish-dessert-meat-260nw-1578588118.webp" alt="Entrees">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, blanditiis. Voluptatum, aut odit dolores veniam minima laboriosam soluta eveniet. Praesentium sit, voluptates repudiandae sunt possimus consequuntur quasi! Incidunt, repellat consequatur!</p>
         </section>
+        <hr>
         <section id="appetizers">
         <h2>Appetizers</h2>
-        <img class="appetizers-img" src="" alt="Appetizers">
+        <img class="appetizers-img" src="Images/New-Years-Appetizers-Thumbnail-blog.jpg" alt="Appetizers">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet sapiente odio assumenda temporibus aperiam suscipit eum hic nostrum ducimus libero, voluptate excepturi. Quo sunt, fugit illum laudantium modi optio asperiores.</p>
         </section>
+        <hr>
         <section id="main-course">
         <h2>Main Course</h2>
-        <img src="" alt="Main Course">
+        <img src="Images/images.jpg" alt="Main Course">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima dolorem quibusdam non commodi esse adipisci tenetur, at illum porro corrupti iure, maiores itaque quasi labore odit ipsam accusantium expedita repellendus?</p>
         </section>
+        <hr>
         <section id="desserts">
         <h2>Desserts</h2>
-        <img class="desserts-img" src="" alt="Desserts">
+        <img class="desserts-img" src="Images/desserts612x612.jpg" alt="Desserts">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem facilis quae, nam molestiae quam facere ut distinctio repellat? Ex quia omnis nostrum cupiditate architecto ad atque. Deleniti placeat ducimus laudantium.</p>
         </section>
-        <section>
-            <h2>Working Hours!</h2>
+        <hr>
+        <section id="working-hours">
+            <h2 class="working-hours-heading" >Working Hours!</h2>
             <table>
                 <thead>
                     <th>&nbsp;</th>
@@ -80,34 +87,35 @@
                 </tfoot>
             </table>
         </section>
+        <hr>
         <section id="place-order">
         <h2>Place an Order and We'll Get Back To You!</h2>
         <form action="" method="post">
             <fieldset>
                 <legend>Place your order here:</legend>
-                <div>
+                <div class="name">
                     <input type="text" name="name" id="name" placeholder="Your Name">
                 </div>
-                <div>
+                <div class="surname">
                     <input type="text" name="surname" id="surname" placeholder="Your Surname">
                 </div>
-                <div>
+                <div class="age">
                     <label for="age">Age:</label>
                     <input type="number" name="Age" id="Age" min="18" max="99" value="18">
                 </div>
-                <div>
+                <div class="preferences">
                     <label for="preferences">Preferences:</label><br>
                   <span>Everything<input type="radio" name="preferences" id="preferences"></span>
                   <span>Vegan<input type="radio" name="preferences" id="preferences"></span>
                   <span>Vegetarian<input type="radio" name="preferences" id="preferences"></span>
                   <span>Pescatarian<input type="radio" name="preferences" id="preferences"></span>
                 </div>
-                <div>
+                <div class="relg-preferences">
                     <label for="relg-preference">Religious Preference:</label><br>
                     <span>Non-Halaal <input type="radio" name="relg-preference" id="relg-preference"></span>
                     <span>Halaal <input type="radio" name="relg-preference" id="relg-preference"></span>
                 </div>
-                <div>
+                <div class="allergies">
                     <label for="allergies">Allergies:</label><br>
                     <span>Nuts<input type="checkbox" name="allergies" id="allergies"></span>
                     <span>Milk<input type="checkbox" name="allergies" id="allergies"></span>
